@@ -1,0 +1,44 @@
+body{
+    font-size:20px;
+}
+b{
+    font-size: 4rem ;
+    margin: 30px;
+}
+.container{
+    width:300px;
+    height: 500px;
+    padding: 20px;
+    border:1px solid rgb(19, 46, 163);
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column  ;
+}
+input{
+    justify-self: center;
+    margin:5px;
+    padding: 5px;
+    display: block;
+}
+#uid{
+    /* text-decoration: none;
+    border: none; */
+    width: 290px;
+}
+#pwd{
+    width: 290px;
+}
+#submit{
+    background-color: #c2dffa;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    width: 290px;
+}
+form{
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    
+}
