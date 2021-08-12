@@ -11,8 +11,10 @@ b{
     padding: 20px;
     border:1px solid rgba(138, 138, 138, 0);
     /* overflow: hidden; */
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    flex-direction: column  ;
+    flex-direction: column;
 }
 input{
     justify-self: center;
@@ -25,30 +27,35 @@ input{
     /* text-decoration: none;
     border: none; */
     font-size: 12px;
-    width: 290px;
+    width: 250px;
     height: 25px;
     border-color: #00000057;
+    margin-left: auto;
+    margin-right: auto;
     border-width: 1px;
     
 }
 #pwd{
     font-size: 12px;
-    width: 290px;
+    width: 250px;
     height: 25px;
     border-color: #00000057;
     border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #submit{
-    width: 300px;
+    width: 260px;
     height: 30px;
     font-size: 15px;
-    align-self: center;
     background-color: #0095f6;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
     border: none;
     border-radius: 5px;
     border-color: #c2dffa00;
-    
+
 }
 form{
     display: flex;
